@@ -9,8 +9,7 @@ dispatcher = updater.dispatcher
 
 chat_id = ''
 my_id = ''
-igor_id = ''
-supported_chat_id = [chat_id, my_id, igor_id]
+supported_chat_id = [chat_id, my_id]
 
 # Decorator to prevent unauthorized access to bot commands
 def authorized(func):
